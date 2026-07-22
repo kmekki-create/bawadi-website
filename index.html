@@ -967,7 +967,7 @@ strong { color: var(--text); font-weight: 700; }
         var msg = encodeURIComponent(form.querySelector('[name=message]').value + '\n\n— ' + form.querySelector('[name=name]').value + ' (' + form.querySelector('[name=email]').value + ')');
         var status = form.querySelector('.form-status');
         if (status) { status.classList.add('ok'); status.textContent = 'Opening your email app to send this message…'; }
-        window.location.href = 'mailto:info@bawadigrill.com?subject=' + encodeURIComponent('Website inquiry from ' + decodeURIComponent(name)) + '&body=' + msg;
+        window.location.href = 'mailto:info@bawadi.com?subject=' + encodeURIComponent('Website inquiry from ' + decodeURIComponent(name)) + '&body=' + msg;
       });
       form.querySelectorAll('input, textarea').forEach(function (input) {
         input.addEventListener('input', function () { input.closest('.field').classList.remove('invalid'); });

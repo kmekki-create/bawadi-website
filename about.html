@@ -642,7 +642,7 @@ strong { color: var(--text); font-weight: 700; }
       <div class="split__copy">
         <span class="eyebrow">Rooted in Family</span>
         <h2>Recipes passed down, cooked from scratch</h2>
-        <p><em>Draft copy — edit freely.</em> Bawadi Mediterranean Grill serves the Falls Church community heartfelt Levantine and Mediterranean cooking rooted in family recipes: slow-marinated kabobs, hand-rolled grape leaves, fresh-baked bread, and rice dishes simmered the traditional way.</p>
+        <p>Bawadi Mediterranean Grill serves the Falls Church community heartfelt Levantine and Mediterranean cooking rooted in family recipes: slow-marinated kabobs, hand-rolled grape leaves, fresh-baked bread, and rice dishes simmered the traditional way.</p>
         <p>Every dish starts with quality halal meats, fresh vegetables, and spices blended in-house, brought together in recipes passed down through generations. Whether you're stopping in for a quick shawarma or gathering the family around a mixed grill platter, our goal is the same: honest, flavorful food served with hospitality.</p>
         <p>We're proud to be a neighborhood spot at 7 Corners — dine in, carry out, or order online.</p>
         <a class="btn btn--primary" href="https://order.toasttab.com/online/bawadi-mediterranean-grill" target="_blank" rel="noopener">Order Takeout <span class="arrow" aria-hidden="true">→</span></a>
@@ -840,7 +840,7 @@ strong { color: var(--text); font-weight: 700; }
         var msg = encodeURIComponent(form.querySelector('[name=message]').value + '\n\n— ' + form.querySelector('[name=name]').value + ' (' + form.querySelector('[name=email]').value + ')');
         var status = form.querySelector('.form-status');
         if (status) { status.classList.add('ok'); status.textContent = 'Opening your email app to send this message…'; }
-        window.location.href = 'mailto:info@bawadigrill.com?subject=' + encodeURIComponent('Website inquiry from ' + decodeURIComponent(name)) + '&body=' + msg;
+        window.location.href = 'mailto:info@bawadi.com?subject=' + encodeURIComponent('Website inquiry from ' + decodeURIComponent(name)) + '&body=' + msg;
       });
       form.querySelectorAll('input, textarea').forEach(function (input) {
         input.addEventListener('input', function () { input.closest('.field').classList.remove('invalid'); });
